@@ -4,7 +4,6 @@ class Node:
         self.previous = self
         self.next = self
 
-        
 
 class DoublyCircularLinkedList:
     def __init__(self):
