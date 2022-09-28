@@ -4,7 +4,7 @@ class Node:
         self.previous = self
         self.next = self
 
-       
+        
 
 class DoublyCircularLinkedList:
     def __init__(self):
@@ -133,4 +133,3 @@ for i in range(len(operations)):
         result.append(obj.delete_at_index(data[i]))
 print(result)
 Footer
-
